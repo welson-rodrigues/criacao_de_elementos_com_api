@@ -1,0 +1,44 @@
+.usuarios-lista {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 250px;
+    gap: 20px;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+fotoElement, img {
+    border-radius: 100px;
+    border: solid 3px tomato;
+}
+
+idElement, li {
+    /* color: blue; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.usuario-item {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid 2px black;
+}
+
+.usuario-item:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+.usuario-info {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.usuario-info li {
+    margin-bottom: 5px;
+}
+
+.usuario-info li:first-child {
+    font-weight: bold;
+}
